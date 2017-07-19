@@ -1,0 +1,77 @@
+{
+  "name": "ts-vscode-boilerplate",
+  "version": "0.1.0",
+  "description": "Typescript VS Code Boilerplate for new projects",
+  "author": "Nathanial L. McConnell <fluxaugur@gmail.com> (https://github.com/FluxAugur/)",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.1.4",
+    "npm": ">=5.3.0",
+    "vscode": ">=1.14.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp lint && gulp build-test && gulp test"
+  },
+  "homepage": "https://github.com/FluxAugur/ts-vscode-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/FluxAugur/ts-vscode-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluxAugur/ts-vscode-boilerplate.git"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/jquery": "^3.2.8",
+    "@types/mocha": "^2.2.41",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.4.0",
+    "chai": "^4.1.0",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-bump": "^2.7.0",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-mocha": "^4.3.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.1.1",
+    "gulp-typescript": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
+    "minimatch": "^3.0.4",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1",
+    "uuid": "^3.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "visual studio code",
+    "vs code",
+    "vscode",
+    "boilerplate",
+    "template",
+    "project",
+    "starter",
+    "browser-sync",
+    "browserify",
+    "mocha",
+    "chai",
+    "gulp",
+    "istanbul",
+    "sourcemaps",
+    "tslint",
+    "uglify",
+    "run-sequence",
+    "vinyl-buffer",
+    "vinyl-source-stream"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "tsify": "^3.0.1"
+  }
+}
